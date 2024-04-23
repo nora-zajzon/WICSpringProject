@@ -1,26 +1,29 @@
 <!DOCTYPE html>
-<!-- The HTML document declaration -->
 <html lang="en">
-  <head>
-        <!-- Meta tags for character set, description, and viewport settings -->
+    <head>
         <meta charset="UTF-8">
-        <meta name="description" content="This isn't Rate My Professor.">
+        <meta name="description" content="Weather Information.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Title of the page -->
-        <title>Not Rate My Professor</title>
-    
-  </head>
-  <body>
-    <header>
-      <h1>Not Rate My Professor</h1>
-
-      <nav>
-      </nav>
-
-      <p>
-        Hello
-      </p>
-
-    </header>
-  </body>
+        <title>Weather</title>
+        <!--<link rel="stylesheet" type="text/css" href="style.css" media="screen">-->
+    </head>
+    <body>
+        <header>
+          <h1>Not Rate My Professor</h1>
+            <h2>What GE Course Should I Take for Muir College?</h1>
+        </header>
+        <main>
+            <p>Say Hi to the ChatBot!</p>
+            <div class="chat-container">
+                <div class="chat-box" id="chat-box"></div>
+                <input type="text" id="user-input" placeholder="Type here...">
+                <button onclick="sendMessage()">Send</button>
+              </div>
+              <script src="chatbot.js"></script>
+        </main>
+        <script src="//code.tidio.co/ww3v3uyxpllndrwqfhko095jlpx49b3a.js" async></script>
+    </body>
+    <footer>
+        <p class="footer-design">Made with &hearts;</p>
+    </footer>
+</html>
