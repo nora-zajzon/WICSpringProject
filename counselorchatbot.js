@@ -5,7 +5,7 @@ const userInput = document.getElementById('user-input');
 const themes = {
   "Math or Natural Science": {
     "1: Math and Statistics": [
-      "BILD 5", "CSE 4GS", "COGS 14A", "COGS 14B", "HDS 60", "MATH 3B", "MATH 3C", "MATH 4C", "MATH 10A", "MATH 20A", "MATH 10B", "MATH 20B", "MATH 10C or 20C", "MATH 11", "MATH 18", "MATH 31AH", "MATH 31BH", "MATH 31CH", "MGT 3", "POLI 30", "MATH 30D", "PSYC 60", "PSYC 70", "SOCI 60"
+      "BILD 5", "CSE 4GS", "COGS 14A", "COGS 14B", "HDS 60", "MATH 3B", "MATH 3C", "MATH 4C", "MATH 10A", "MATH 20A", "MATH 10B", "MATH 20B", "MATH 10C", "MATH 20C", "MATH 11", "MATH 18", "MATH 31AH", "MATH 31BH", "MATH 31CH", "MGT 3", "POLI 30", "MATH 30D", "PSYC 60", "PSYC 70", "SOCI 60"
     ],
     "2: Biological Sciences": [
       "ANTH 2", "ANTH 5", "ANTH 42", "ANTH 43", "BILD 1", "BILD 2", "BILD 3", "BILD 7", "BILD 10", "BILD 12", "BILD 18", "BILD 20", "BILD 22", "BILD 26", "BILD 28", "BILD 30", "BILD 32", "BILD 36", "BILD 38", "BILD 42", "BILD 44", "BILD 45GS", "BILD 46", "BILD 46GS", "BILD 60", "BILD 61", "COGS 17"
