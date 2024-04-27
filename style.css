@@ -40,7 +40,30 @@ h1 {
     color: white;
     font-size: 2em;
     text-align: center;
+    -webkit-text-stroke: 0.3Vw #ffffff;
+    text-transform: uppercase;
 }
+
+h1::before{
+    content: attr(data-text);
+    position: absolute;
+    color: #ffffff;
+    -webkit-text-stroke: 0.3Vw #ffffff;
+    border-right: 2px solid #ffffff;
+    overflow: hidden;
+    animation: animate 6s linear infinite;
+}
+@keyframes animate {
+    0%, 10%, 100%
+    {
+        width: 0;
+    }
+    70%, 90%
+    {
+        width: 100%;
+    }
+}
+    
 h5 {
     margin-top: 0em;
     margin-right: 2em;
