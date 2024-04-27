@@ -23,7 +23,7 @@ nav {
     ul {
     list-style-type: none;
     display: inline;
-    margin: 0;
+    margin: auto;
     padding: 0;
     overflow: hidden;
     }   
