@@ -20,15 +20,19 @@ header {
     padding-bottom: 4em;
 }
 nav {
-    li {
-        float: left;
-      }
-      
-      a {
-        display: block;
-        padding: 8px;
-        background-color: #ceffcd;
-      }
+    ul {
+    list-style-type: none;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    }   
+
+    a {
+    display: block;
+    padding: 8px;
+    background-color: #ceffcd;
+    }
 }
 h1 {
     margin-left: 2em;
