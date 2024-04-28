@@ -55,9 +55,12 @@ h1::before{
     width: 100%;
     height: 100%;
     color: #ffffff;
-    border-right: 2px solid #ffffff;
     overflow: hidden;
     animation: animate 10s linear infinite;
+}
+h1::before {
+    border-right: 2px solid #ffffff;
+    animation: animateBorder 10s linear infinite;
 }
 @keyframes animate {
     0%,10%,100%
