@@ -38,8 +38,9 @@ nav {
     }
 }
 h1 {
-    margin-left: 6em;
-    margin-right: 6em;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
     color: transparent;
     font-size: 2em;
     height: 1em;
