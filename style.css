@@ -20,14 +20,17 @@ header {
     padding-bottom: 4em;
 }
 nav {
+    width: 100%;
     margin: auto;
-    ul {
+    
+ul {
     list-style-type: none;
     display: inline;
+    justify-content: center;
     margin: auto;
     padding: 0;
     overflow: hidden;
-    }   
+}   
 
     a {
     display: block;
