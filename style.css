@@ -35,8 +35,8 @@ nav {
     }
 }
 h1 {
-    margin-left: 9em;
-    margin-right: 9em;
+    margin-left: 8em;
+    margin-right: 8em;
     color: transparent;
     font-size: 2em;
     height: 1em;
@@ -57,7 +57,7 @@ h1::before{
     animation: animate 10s linear infinite;
 }
 @keyframes animate {
-    0%,10%,100%
+    0%
     {
         width: 0;
     }
