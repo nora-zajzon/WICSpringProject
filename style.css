@@ -20,6 +20,7 @@ header {
     padding-bottom: 4em;
 }
 nav {
+    margin: auto;
     ul {
     list-style-type: none;
     display: inline;
