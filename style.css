@@ -37,17 +37,17 @@ nav {
 h1 {
     margin-left: 2em;
     margin-right: 2em;
-    color: white;
+    color: #417647;
     font-size: 2em;
     text-align: center;
-    -webkit-text-stroke: 0.2Vw #ffffff;
+    -webkit-text-stroke: 0.2Vw #417647;
 }
 
 h1::before{
     content: attr(data-text);
     position: absolute;
     color: #ffffff;
-    -webkit-text-stroke: 0.2Vw #ffffff;
+    -webkit-text-stroke: 0Vw #417647;
     border-right: 2px solid #ffffff;
     overflow: hidden;
     animation: animate 6s linear infinite;
